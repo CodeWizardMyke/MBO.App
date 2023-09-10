@@ -9,14 +9,18 @@ function header (){
                     <h1>Meu bolso online</h1>
                 </div>
             </div>
-            <div className='h-nav'>
-                <ul>
-                    <li><a href="/">Beneficios</a></li>
-                    <li><a href="/">Sobre</a></li>
-                </ul>
-                <div className='bt-right'>
-                    <a href="/" className='bt-login'>login</a>
+            <div className='col-12 h-nav'>
+                <div className='col-8 '>
+                    <nav className='nav'>
+                        <a href="/" className='nav-link'>Beneficios</a>
+                        <a href="/" className='nav-link'>Sobre</a>
+                    </nav>
                 </div>
+                <div className='col-2 nav'>
+                    <a href="/" className='btn '>Login</a>
+                </div>
+            </div>
+            <div>
             </div>
         </>
     )
