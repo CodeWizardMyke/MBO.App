@@ -5,7 +5,9 @@ function header (){
         <>
             <div className='header'>
                 <div className='header-tt'>
-                    <img src={LogoHeader} alt='meubolsoonline-logo' />
+                    <a href="/">
+                        <img src={LogoHeader} alt='meubolsoonline-logo' />
+                    </a>
                     <h1>Meu bolso online</h1>
                 </div>
             </div>
@@ -17,7 +19,7 @@ function header (){
                     </nav>
                 </div>
                 <div className='col-2 nav'>
-                    <a href="/" className='btn '>Login</a>
+                    <a href="/singin" className='btn '>Login</a>
                 </div>
             </div>
             <div>
