@@ -37,6 +37,7 @@
     ]
   },
   "devDependencies": {
+    "@flydotio/dockerfile": "^0.4.9",
     "sass": "^1.66.1"
   }
 }
